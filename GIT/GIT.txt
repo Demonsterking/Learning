@@ -1,0 +1,77 @@
+$ git init - which will initialize repository in the current folder
+
+Adding Changes (Staging)
+$ git status
+ - to track untracked files 
+$ git add readme.txt
+$ git add *.html
+ - which will add all .html extension files
+$ git add .
+$ git status 
+ - ready to commit to repository
+
+$ git commit
+-press "i" to go on insert mode, enter your msg, press "Ese" to exit insert mode, type :wq which will rewrite the current file
+$ git commit -m 'message'
+$ git push
+
+$ git log
+- to see the commit history
+
+$ touch <filename>
+- to creach file
+$ touch .gitignore
+- to create .gitignore file
+- in .gitignore type extension (eg: *.log) to ignore ".log" file which will not show in git status
+
+Branching and marging:
+
+$git branch MyBranch 
+- to create branch (Branch is created to work without main file/it allows you to work on a copy of code in main line without affecting the main line )
+$ git checkout MyBranch
+- to switch in MyBranch branch
+$ git checkout master
+- to switch in master branch (master is the name of main branch)
+
+$ git merge MyBranch (from main branch i.e master)
+
+$ git commit -a -m 'new changes'
+- "-a" to escape staging step
+
+$ git clone <repository/link>
+$ git remote
+$ git remote -v 
+- to show URL
+$ cd <foldername>
+- to enter any folder
+
+$git fatch origin
+-get any changes made since last you cloned or fatched
+-it will pull the data in your local repository (have to marge manually)
+$ git pull origin 
+- will automatically fatch and marge the changes from the remort branch into your current branch
+
+ready to make changes commit your work and push
+$ git commit -a -m 'changes'
+$ git push orgin master
+- push changes to remote repository and commit them to the master branch
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
