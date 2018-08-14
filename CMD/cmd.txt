@@ -36,3 +36,6 @@ file location> Attrib +h +s +r FolderName
 >Go to directory and type cmd
 
 presing F7 for list of commed you have used
+
+Reveal the key for all wireless networks you've ever connected to. 
+>netsh wlan show profile name="MyNetworkName" key=clear
